@@ -5,7 +5,7 @@ class CounterState {
 
   CounterState({required this.count});
 
-  factory CounterState.inital() {
+  factory CounterState.initial() {
     return CounterState(count: 0);
   }
 
